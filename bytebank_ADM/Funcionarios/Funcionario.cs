@@ -17,7 +17,8 @@ namespace bytebank_ADM.Funcionarios
         public string Cpf { get; set; }
         public double Salario { get; set; }
 
-        public double getBonificacao()
+        // Ao adicionar vitual permite a rescrita do método nas classes derivadas
+        public virtual double getBonificacao()
         {
             return Salario * 0.1;
         }

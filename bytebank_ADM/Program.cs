@@ -27,6 +27,6 @@ Console.WriteLine("Bonificação: " + paula.getBonificacao());
 gerenciador.Registrar(pedro);
 gerenciador.Registrar(paula);
 
-Console.WriteLine("Total de Bonificacao:" + gerenciador.getBonificacao());
+Console.WriteLine("Total de Bonificacao: " + gerenciador.getBonificacao());
 
 Console.ReadKey();

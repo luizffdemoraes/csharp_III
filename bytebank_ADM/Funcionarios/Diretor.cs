@@ -9,8 +9,8 @@ namespace bytebank_ADM.Funcionarios
     public class Diretor: Funcionario
     {
 
-
-        public double getBonificacao()
+        // override permite redefinir o metodo na classe derivada
+        public override double getBonificacao()
         {
             return Salario;
         }
