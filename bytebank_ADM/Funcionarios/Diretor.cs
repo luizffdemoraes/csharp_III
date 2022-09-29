@@ -17,9 +17,14 @@ namespace bytebank_ADM.Funcionarios
         }
 
         // ctor + tab 2 vezes cria a o metodo construtor da classe
-        public Diretor(string cpf):base(cpf)
+        public Diretor(string cpf, double salario):base(cpf, salario)
         {
             Console.WriteLine("Criando um diretor.");
+        }
+
+        public override void AumentarSalario()
+        {
+            this.Salario *= 1.15;
         }
     }
 }

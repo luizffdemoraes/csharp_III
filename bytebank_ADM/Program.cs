@@ -5,23 +5,21 @@ Console.WriteLine("Boas Vindas, ao ByteBank Administração.");
 
 GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-Funcionario pedro = new Funcionario("12345698");
+Funcionario pedro = new Funcionario("12345698", 2000);
 pedro.Nome = "Pedro";
-pedro.Salario = 2000;
 Console.WriteLine("Total de Funcionarios " + Funcionario.totalDeFuncionarios);
 
 //Console.WriteLine("Nome: " + pedro.Nome);
 //Console.WriteLine("CPF: " + pedro.Cpf);
 //Console.WriteLine("Salário: " + pedro.Salario);
 
-Diretor paula = new Diretor("1241661613");
+Diretor paula = new Diretor("1241661613", 5000);
 paula.Nome = "Paula";
-paula.Salario = 5000;
+
 Console.WriteLine("Total de Funcionarios " + Funcionario.totalDeFuncionarios);
 
-Funcionario andre = new Diretor("1241661613");
-pedro.Nome = "Andre";
-pedro.Salario = 3000;
+Funcionario andre = new Diretor("1241661613", 3000);
+andre.Nome = "Andre";
 
 Console.WriteLine("Bonificação: " + pedro.getBonificacao());
 Console.WriteLine("Bonificação: " + paula.getBonificacao());
@@ -31,5 +29,12 @@ gerenciador.Registrar(pedro);
 gerenciador.Registrar(paula);
 
 Console.WriteLine("Total de Bonificacao: " + gerenciador.getBonificacao());
+
+andre.AumentarSalario();
+Console.WriteLine("Novo salário do André: " + andre.Salario);
+
+pedro.AumentarSalario();
+Console.WriteLine("Novo salário do Pedro: " + pedro.Salario);
+
 
 Console.ReadKey();
