@@ -15,5 +15,11 @@ namespace bytebank_ADM.Funcionarios
             // Ao utilizar o base você acessa o método da classe base / superclasse
             return Salario + base.getBonificacao();
         }
+
+        // ctor + tab 2 vezes cria a o metodo construtor da classe
+        public Diretor()
+        {
+            Console.WriteLine("Criando um diretor.");
+        }
     }
 }

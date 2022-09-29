@@ -22,5 +22,16 @@ namespace bytebank_ADM.Funcionarios
         {
             return Salario * 0.1;
         }
+
+
+        // Definir que uma propriedade e da Classe não do Objeto  
+        public static int totalDeFuncionarios { get; private set; }
+
+        public Funcionario()
+        {
+            Console.WriteLine("Criando um funcionário.");
+            totalDeFuncionarios++;
+        }
+
     }
 }
