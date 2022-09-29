@@ -12,6 +12,9 @@ void CarcularBonificacao()
     Designer pedro = new Designer("83.222.048-39");
     pedro.Nome = "Pedro";
 
+    Desenvolvedor samya = new Desenvolvedor("33.111.048-39");
+    samya.Nome = "Samya";
+
     Diretor paula = new Diretor("159.753.398-04");
     paula.Nome = "Paula";
 
@@ -25,6 +28,7 @@ void CarcularBonificacao()
     gerenciador.Registrar(paula);
     gerenciador.Registrar(igor);
     gerenciador.Registrar(camila);
+    gerenciador.Registrar(samya);
 
     Console.WriteLine("Total de Bonificação: "+ gerenciador.getBonificacao());
 }

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace bytebank_ADM.Funcionarios
 {
     // A partir do momento que adicionamos o abstract definimos a classe como base para criação de outras com comportamento e propriedades que todo funcionário deve ter
+    // Não é possível criar objetos de uma classe abistrata
     public abstract class Funcionario
     {
         // 0 - Funcionário
@@ -20,12 +21,6 @@ namespace bytebank_ADM.Funcionarios
         public double Salario { get; protected set; }
 
         // Ao adicionar vitual permite a rescrita do método nas classes derivadas
-        public virtual double getBonificacao()
-        {
-            return Salario * 0.1;
-        }
-
-
         // Definir que uma propriedade e da Classe não do Objeto  
         public static int totalDeFuncionarios { get; private set; }
 
@@ -36,10 +31,9 @@ namespace bytebank_ADM.Funcionarios
             Console.WriteLine("Criando um funcionário.");
             totalDeFuncionarios++;
         }
+        // Ao adicionar abistract no método toda classe que herdar dela tem que implementar 
+        public abstract double getBonificacao();
 
-        public virtual void AumentarSalario()
-        {
-            this.Salario *= 1.1; 
-        }
+        public abstract void AumentarSalario();
     }
 }
