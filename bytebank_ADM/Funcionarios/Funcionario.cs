@@ -14,7 +14,7 @@ namespace bytebank_ADM.Funcionarios
         // N - ...
         // private int _tipo;
         public string Nome { get; set; }
-        public string Cpf { get; set; }
+        public string Cpf { get; private set; }
         public double Salario { get; set; }
 
         // Ao adicionar vitual permite a rescrita do método nas classes derivadas
@@ -27,8 +27,9 @@ namespace bytebank_ADM.Funcionarios
         // Definir que uma propriedade e da Classe não do Objeto  
         public static int totalDeFuncionarios { get; private set; }
 
-        public Funcionario()
+        public Funcionario(string cpf)
         {
+            Cpf = cpf;
             Console.WriteLine("Criando um funcionário.");
             totalDeFuncionarios++;
         }

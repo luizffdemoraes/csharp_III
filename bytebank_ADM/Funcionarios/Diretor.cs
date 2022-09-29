@@ -17,7 +17,7 @@ namespace bytebank_ADM.Funcionarios
         }
 
         // ctor + tab 2 vezes cria a o metodo construtor da classe
-        public Diretor()
+        public Diretor(string cpf):base(cpf)
         {
             Console.WriteLine("Criando um diretor.");
         }
