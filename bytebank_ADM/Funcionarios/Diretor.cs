@@ -12,7 +12,8 @@ namespace bytebank_ADM.Funcionarios
         // override permite redefinir o metodo na classe derivada
         public override double getBonificacao()
         {
-            return Salario;
+            // Ao utilizar o base você acessa o método da classe base / superclasse
+            return Salario + base.getBonificacao();
         }
     }
 }
