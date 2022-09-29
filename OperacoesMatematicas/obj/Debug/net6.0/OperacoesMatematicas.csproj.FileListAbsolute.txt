@@ -1,0 +1,15 @@
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.csproj.AssemblyReference.cache
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.GeneratedMSBuildEditorConfig.editorconfig
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.AssemblyInfoInputs.cache
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.AssemblyInfo.cs
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.csproj.CoreCompileInputs.cache
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\bin\Debug\net6.0\OperacoesMatematicas.exe
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\bin\Debug\net6.0\OperacoesMatematicas.deps.json
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\bin\Debug\net6.0\OperacoesMatematicas.runtimeconfig.json
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\bin\Debug\net6.0\OperacoesMatematicas.dll
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\bin\Debug\net6.0\OperacoesMatematicas.pdb
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.dll
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\refint\OperacoesMatematicas.dll
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.pdb
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\OperacoesMatematicas.genruntimeconfig.cache
+C:\estudos\alura\csharp\CSharpHerancaImplementandoInterfaces\bytebank_ADM\OperacoesMatematicas\obj\Debug\net6.0\ref\OperacoesMatematicas.dll

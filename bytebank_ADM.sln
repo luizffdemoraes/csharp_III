@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bytebank_ADM", "bytebank_ADM\bytebank_ADM.csproj", "{C182E005-D448-4DC2-81D1-2AEFB0779E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacoesMatematicas", "OperacoesMatematicas\OperacoesMatematicas.csproj", "{8ED482FA-DEED-46B7-B771-83A9E300F676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C182E005-D448-4DC2-81D1-2AEFB0779E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C182E005-D448-4DC2-81D1-2AEFB0779E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C182E005-D448-4DC2-81D1-2AEFB0779E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED482FA-DEED-46B7-B771-83A9E300F676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED482FA-DEED-46B7-B771-83A9E300F676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED482FA-DEED-46B7-B771-83A9E300F676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED482FA-DEED-46B7-B771-83A9E300F676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
