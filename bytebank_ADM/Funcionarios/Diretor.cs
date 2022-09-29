@@ -8,23 +8,22 @@ namespace bytebank_ADM.Funcionarios
 {
     public class Diretor: Funcionario
     {
+        // ctor + tab 2 vezes cria a o metodo construtor da classe
+        public Diretor(string cpf):base(cpf, 5000)
+        {
+            Console.WriteLine("Criando um Diretor.");
+        }
+
+        public override void AumentarSalario()
+        {
+            Salario *= 1.15;
+        }
 
         // override permite redefinir o metodo na classe derivada
         public override double getBonificacao()
         {
             // Ao utilizar o base você acessa o método da classe base / superclasse
-            return Salario + base.getBonificacao();
-        }
-
-        // ctor + tab 2 vezes cria a o metodo construtor da classe
-        public Diretor(string cpf, double salario):base(cpf, salario)
-        {
-            Console.WriteLine("Criando um diretor.");
-        }
-
-        public override void AumentarSalario()
-        {
-            this.Salario *= 1.15;
+            return Salario * 0.5;
         }
     }
 }

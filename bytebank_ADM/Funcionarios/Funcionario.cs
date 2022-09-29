@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM.Funcionarios
 {
-    public class Funcionario
+    // A partir do momento que adicionamos o abstract definimos a classe como base para criação de outras com comportamento e propriedades que todo funcionário deve ter
+    public abstract class Funcionario
     {
         // 0 - Funcionário
         // 1 - Diretor
