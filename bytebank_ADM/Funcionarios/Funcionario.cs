@@ -33,7 +33,6 @@ namespace bytebank_ADM.Funcionarios
         }
         // Ao adicionar abistract no método toda classe que herdar dela tem que implementar 
         public abstract double getBonificacao();
-
         public abstract void AumentarSalario();
     }
 }

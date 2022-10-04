@@ -47,8 +47,13 @@ void UsarSistema()
     ursula.Nome = "Ursula";
     ursula.Senha = "321";
 
+    Funcionario pedro = new Designer("326.985.628-89");
+    pedro.Nome = "Pedro";
+    //pedro.Senha = "321";
+
     sistemaInterno.Logar(roberta, "123");
     sistemaInterno.Logar(ursula, "321");
+    //sistemaInterno.Logar(pedro, "321");
 }
 
 Console.ReadKey();
