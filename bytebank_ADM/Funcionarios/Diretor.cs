@@ -25,5 +25,12 @@ namespace bytebank_ADM.Funcionarios
             // Ao utilizar o base você acessa o método da classe base / superclasse
             return Salario * 0.5;
         }
+
+        public string Senha { get; set; }
+
+        public bool Autenticar(string senha)
+        {
+            return this.Senha == senha;
+        }
     }
 }
