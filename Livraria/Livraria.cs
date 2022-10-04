@@ -21,11 +21,5 @@ namespace Livraria
             this.Isbn = Isbn;
             this.Titulo = Titulo;
         }
-
-
- 
-
-
-
     }
 }
