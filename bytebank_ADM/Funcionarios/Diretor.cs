@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM.Funcionarios
 {
-    public class Diretor: Autenticavel
+    public class Diretor:FuncionarioAutenticavel
     {
         // ctor + tab 2 vezes cria a o metodo construtor da classe
         public Diretor(string cpf):base(cpf, 5000)
