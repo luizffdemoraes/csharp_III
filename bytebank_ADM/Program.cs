@@ -42,17 +42,19 @@ void UsarSistema()
     Diretor roberta = new Diretor("159.753.398-04");
     roberta.Nome = "Roberta";
     roberta.Senha = "123";
+    roberta.Login = "roberta@gmail.com";
 
     GerenteDeContas ursula = new GerenteDeContas("326.985.628-89");
     ursula.Nome = "Ursula";
     ursula.Senha = "321";
+    ursula.Login = "ursula@gmail.com";
 
     Funcionario pedro = new Designer("326.985.628-89");
     pedro.Nome = "Pedro";
     //pedro.Senha = "321";
 
-    sistemaInterno.Logar(roberta, "123");
-    sistemaInterno.Logar(ursula, "321");
+    sistemaInterno.Logar(roberta, roberta.Senha, roberta.Login);
+    sistemaInterno.Logar(ursula, ursula.Senha, ursula.Login);
     //sistemaInterno.Logar(pedro, "321");
 }
 
